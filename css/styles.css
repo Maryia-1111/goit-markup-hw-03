@@ -9,6 +9,8 @@ h1, h2, h3, p, ul {
 }
 ul {
     list-style-type: none;
+    padding-left: 0;
+    margin: 0;
 }
 .navi {
     display: flex;
@@ -33,7 +35,7 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
-    min-width: 496px;
+    max-width: 496px;
 }
 .third-part {
     background-color: #f4f4fd;
@@ -142,7 +144,7 @@ font-weight: 500;
     font-style: normal;
     color: #434455;
 }
-contacts-list {
+.contacts-list {
     display: flex;
     gap: 40px;
 }
@@ -189,6 +191,7 @@ a {
 .img {
     display: block;
     max-width: 100%;
+    height: auto;
 }
 .second-part {
     padding: 120px 0;
