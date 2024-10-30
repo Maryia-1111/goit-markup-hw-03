@@ -154,7 +154,7 @@ a {
 }
 .container {
     width: 1158px;
-    display: inline;
+    display: flex;
 }
 .section {
     padding-left: 120px;
@@ -163,4 +163,8 @@ a {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+}
+.img {
+    display: block;
+    max-width: 100%;
 }
