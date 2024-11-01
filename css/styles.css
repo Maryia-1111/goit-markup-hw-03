@@ -47,14 +47,18 @@ ul {
 }
 .third-part {
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
-.third-part .ppl-dscr {
+.ppl-dscr {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 .third-part .list-third {
     background-color: #ffffff;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 .list .benef-s {
     font-size: 16px;
@@ -67,14 +71,18 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
-.list .people {
+.people {
     font-weight: 500;
     background-color: ffffff;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
+
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -104,6 +112,7 @@ ul {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 .titles-four {
     font-weight: 500;
@@ -216,4 +225,22 @@ a {
 .second-part {
     padding: 120px 0;
 }
-.visually-hidden 
+.visually-hidden {
+    display: none;
+}
+.two-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.features-dscr{
+    calc((100% - 72px) / 4);
+}
+.three-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.employee {
+    padding: 32px 0;
+}
