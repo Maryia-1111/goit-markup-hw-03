@@ -36,7 +36,7 @@ ul {
     padding: 188px 0;
 
 }
-.first-part .inscription {
+.inscription {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -44,6 +44,21 @@ ul {
     text-align: center;
     color: #ffffff;
     max-width: 496px;
+}
+.push {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    justify-content: flex-start;
+    background-color: #4d5ae5;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    display: block;
 }
 .third-part {
     background-color: #f4f4fd;
@@ -137,30 +152,16 @@ ul {
     padding: 100px 0;
 
 }
-.under .foot-parag {
+.foot-parag {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
 }
-foot-logo {
+.foot-logo {
     display: inline-block;
     margin-bottom: 16px;
-}
-.push {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
-    justify-content: flex-start;
-    background-color: #4d5ae5;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    border-radius: 4px;
-    display: block;
 }
 #nav li {
 font-weight: 500;
