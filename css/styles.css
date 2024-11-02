@@ -36,7 +36,7 @@ ul {
     padding: 188px 0;
 
 }
-.inscription {
+.first-part .inscription {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -44,6 +44,7 @@ ul {
     text-align: center;
     color: #ffffff;
     max-width: 496px;
+    margin: 0 auto 48px auto;
 }
 .push {
     font-family: "Roboto", sans-serif;
@@ -59,6 +60,7 @@ ul {
     border: none;
     border-radius: 4px;
     display: block;
+    margin: 0 auto;
 }
 .third-part {
     background-color: #f4f4fd;
